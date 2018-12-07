@@ -3,9 +3,9 @@
 #### Teacher: [Tero Karvinen](http://terokarvinen.com/)
 
 This project will install next packages and configurations:
-Apache2
-PHP
-MariaDB
-SSH
+1. Apache2
+2. PHP
+3. MariaDB
+4. SSH
 
 Project have been tested on Xubuntu 18.04.
