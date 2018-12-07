@@ -5,7 +5,7 @@ openssh-server:
 # Paivittaa sshd_config tiedoston.
 /etc/ssh/sshd_config:
   file.managed:
-    -source: saltkg-project://ssh/sshd_config
+    -source: salt://ssh/sshd_config
 
 # Tarkistaa oliko sshd_config paivitetty ja restartaa sshd service.
 sshd:
