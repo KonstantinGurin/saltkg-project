@@ -7,5 +7,6 @@ This project will install next packages and configurations:
 - PHP
 - MariaDB
 - SSH
+- UFW configuration for SSH connection via 8870 port
 
 Project have been tested on Xubuntu 18.04.
