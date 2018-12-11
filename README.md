@@ -7,11 +7,16 @@ This project will install next packages and configurations:
 - MariaDB
 - PHP
 - SSH
-- UFW configuration for SSH connection via 8870 port
+- UFW enable firewall and configure for SSH connection via 8870 port
 - Disables directory browsing
-- Some bash scripts (under work)
+- BASH
 
-You need to change minions home directory name in this .sls file, if your minions name other than xubuntu!
-You will find it here --> /salt/apache2/init.sls
+
+Watch full install/update list in directory salt/bash/updates.txt or simply run "runme.sh" bashscript.
+
+You need to change minions name in this .sls file, if your minions name other than xubuntu!
+You will find it:
+Here --> /salt/apache2/init.sls
+Here --> salt/mariadb/init.sls
 
 Project have been tested on Xubuntu 18.04.
