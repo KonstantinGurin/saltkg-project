@@ -19,8 +19,9 @@
     - group: root
     - mode: 600
 
-ufw:
+ufwservice:
   service.running:
+    - name: ufw
     - watch:
       - file: /etc/ufw/ufw.conf
       - file: /etc/ufw/user.rules

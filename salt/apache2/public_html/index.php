@@ -4,7 +4,7 @@
   <title>Front page</title>
  </head>
  <body>
- <h1>Front page of user kgminion1</h1>
- <?php echo '<p>Welcome!</p>'; ?> 
+ <h1>Front page of user xubuntu</h1>
+ <?php echo '<p>Welcome Xubuntu!</p>'; ?> 
  </body>
 </html>

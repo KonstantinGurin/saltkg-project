@@ -40,10 +40,10 @@ apache2service1:
     - require:
       - pkg: apache2
 
-# Taytyy aina muokata minionin nimi kun asentaa uudelle koneelle. Nyt on kgminion1.
+# Taytyy aina muokata minionin nimi kun asentaa uudelle koneelle eri nimen kanssa! Nyt on xubuntu.
 # makedirs luo kansion public_html
 # file_mode asettaa jatkossa oikeudet uusille tiedostiolle mitka luodaan tahan kansioon.
-/home/kgminion1/public_html/:
+/home/xubuntu/public_html/:
   file.directory:
     - makedirs: True
     - user: root
@@ -54,6 +54,12 @@ apache2service1:
     - file_mode: 644
 
 # Luo tai paivittaa index.php eli kayttajan kotisivu.
-/home/kgminion1/public_html/index.php:
+/home/xubuntu/public_html/index.php:
   file.managed:
     - source: salt://apache2/public_html/index.php
+
+# Esimerkki tietokantan kaytosta.
+/home/xubuntu/public_html/shoplist.php:
+  file.managed:
+    - source: salt://apache2/public_html/shoplist.php
+

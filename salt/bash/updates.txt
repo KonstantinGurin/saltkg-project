@@ -1,0 +1,25 @@
+Installed:
+- Apache2
+- MariaDB client and server
+- PHP libapache2-mod-php
+- PHP-MYSQL
+- SSH openssh-server
+
+Configured:
+- UFW: Enabled firewall and allowed 8870 port for SSH connection.
+- Directory browsing
+- .my.cnf for fast loggin into MariaDB. Use "sudo mariadb".
+- php7.2.conf enabled PHP
+- sshd_config Now SSH port is: 8870
+
+Created:
+- New database kgtestdb
+- New table kgtestdb 
+
+Downloaded:
+- User frontpage index.php
+- shoplist.php as example how can use PHP with MYSQL database.
+- This BASH script runme.sh
+
+Updated:
+- Apache2 frontpage index.html
